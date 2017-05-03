@@ -25,11 +25,6 @@ Client                       PublicHelloService                 PrivateHelloServ
   |<--------------------------------|
 ```
 
-### PublicHelloService
-
-### PrivateHelloService
-
-
 ## Installing the service
 
 We encourage you to clone the git repository so you can play around
