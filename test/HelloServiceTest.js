@@ -36,7 +36,7 @@ __(function() {
       carbon.carbond.test.ServiceTest.prototype.setup.call(this)
       
       // Start private service
-      this.privateService.verbosity = 'fatal'
+      this.privateService.verbosity = 'error'
       this.privateService.start()
     },
 
