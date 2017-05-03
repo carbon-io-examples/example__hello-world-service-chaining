@@ -53,7 +53,13 @@ Start the public service (order does not matter):
 For cmdline help:
 
 ```sh
-% node lib/HelloService -h
+% node lib/PublicHelloService -h
+```
+
+or 
+
+```sh
+% node lib/PrivateHelloService -h
 ```
 
 To access the ```/hello``` endpoint:
