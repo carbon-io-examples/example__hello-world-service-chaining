@@ -67,7 +67,7 @@ or
 To access the ```/hello``` endpoint:
 
 ```
-% curl localhost:888/hello 
+% curl localhost:8888/hello 
 { msg: "Hello world!" }
 ```
 
