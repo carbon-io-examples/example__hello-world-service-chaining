@@ -62,6 +62,8 @@ or
 % node lib/PrivateHelloService -h
 ```
 
+## Accessing the service
+
 To access the ```/hello``` endpoint:
 
 ```
