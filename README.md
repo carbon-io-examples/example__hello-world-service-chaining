@@ -64,7 +64,7 @@ or
 
 ## Accessing the service
 
-To access the ```/hello``` endpoint:
+To access the ```/hello``` endpoint on the public service:
 
 ```
 % curl localhost:8888/hello 
