@@ -84,3 +84,19 @@ or
 ```
 % npm test
 ```
+
+## Generating API documentation (aglio flavor)
+
+```sh
+% node lib/PrivateHelloService gen-static-docs --flavor aglio --out docs/private-api.html
+```
+
+```sh
+% node lib/PublicHelloService gen-static-docs --flavor aglio --out docs/public-api.html
+```
+
+View current documentation
+* [Private service](
+http://htmlpreview.github.io/?https://raw.githubusercontent.com/carbon-io/example__hello-world-service-chaining/master/docs/private-api.html)
+* [Public service](
+http://htmlpreview.github.io/?https://raw.githubusercontent.com/carbon-io/example__hello-world-service-chaining/master/docs/private-api.html)
