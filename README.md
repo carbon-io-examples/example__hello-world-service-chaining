@@ -97,6 +97,6 @@ $ node lib/PublicHelloService gen-static-docs --flavor aglio --out docs/public-a
 
 View current documentation
 * [Private service](
-http://htmlpreview.github.io/?https://raw.githubusercontent.com/carbon-io/example__hello-world-service-chaining/master/docs/private-api.html)
+http://htmlpreview.github.io/?https://raw.githubusercontent.com/carbon-io-examples/example__hello-world-service-chaining/blob/carbon-0.7/docs/index.html)
 * [Public service](
-http://htmlpreview.github.io/?https://raw.githubusercontent.com/carbon-io/example__hello-world-service-chaining/master/docs/private-api.html)
+http://htmlpreview.github.io/?https://raw.githubusercontent.com/carbon-io-examples/example__hello-world-service-chaining/blob/carbon-0.7/docs/index.html)
