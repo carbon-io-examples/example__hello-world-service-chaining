@@ -87,6 +87,14 @@ $ npm test
 
 ## Generating API documentation (aglio flavor)
 
+To generate documentation using aglio, install it as a devDependency:
+
+```
+$ npm install -D --no-optional aglio
+```
+
+Using `--no-optional` speeds up aglio's install time significantly. Then generate the docs using these commands:
+
 ```sh
 $ node lib/PrivateHelloService gen-static-docs --flavor aglio --out docs/private-api.html
 ```
@@ -97,6 +105,6 @@ $ node lib/PublicHelloService gen-static-docs --flavor aglio --out docs/public-a
 
 View current documentation
 * [Private service](
-http://htmlpreview.github.io/?https://raw.githubusercontent.com/carbon-io-examples/example__hello-world-service-chaining/blob/carbon-0.7/docs/index.html)
+http://htmlpreview.github.io/?https://raw.githubusercontent.com/carbon-io-examples/example__hello-world-service-chaining/blob/carbon-0.7/docs/private-api.html)
 * [Public service](
-http://htmlpreview.github.io/?https://raw.githubusercontent.com/carbon-io-examples/example__hello-world-service-chaining/blob/carbon-0.7/docs/index.html)
+http://htmlpreview.github.io/?https://raw.githubusercontent.com/carbon-io-examples/example__hello-world-service-chaining/blob/carbon-0.7/docs/public-api.html)
