@@ -31,9 +31,9 @@ We encourage you to clone the git repository so you can play around
 with the code. 
 
 ```
-% git clone git@github.com:carbon-io/example__hello-world-service-chaining.git
-% cd example__hello-world-service-chaining
-% npm install
+$ git clone -b carbon-0.7 -b carbon-0.7 -b carbon-0.7 git@github.com:carbon-io-examples/example__hello-world-service-chaining.git
+$ cd example__hello-world-service-chaining
+$ npm install
 ```
 
 ## Running the services
@@ -41,25 +41,25 @@ with the code.
 Start the private service:
 
 ```sh
-% node lib/PrivateHelloService
+$ node lib/PrivateHelloService
 ```
 
 Start the public service (order does not matter):
 
 ```sh
-% node lib/PublicHelloService
+$ node lib/PublicHelloService
 ```
 
 For cmdline help:
 
 ```sh
-% node lib/PublicHelloService -h
+$ node lib/PublicHelloService -h
 ```
 
 or 
 
 ```sh
-% node lib/PrivateHelloService -h
+$ node lib/PrivateHelloService -h
 ```
 
 ## Accessing the service
@@ -67,7 +67,7 @@ or
 To access the ```/hello``` endpoint on the public service:
 
 ```
-% curl localhost:8888/hello 
+$ curl localhost:8888/hello 
 { msg: "Hello world!" }
 ```
 
@@ -76,23 +76,23 @@ To access the ```/hello``` endpoint on the public service:
 This example comes with a simple unit test written in Carbon.io's test framework called TestTube. It is located in the ```test``` directory. 
 
 ```
-% node test/HelloServiceTest
+$ node test/HelloServiceTest
 ```
 
 or 
 
 ```
-% npm test
+$ npm test
 ```
 
 ## Generating API documentation (aglio flavor)
 
 ```sh
-% node lib/PrivateHelloService gen-static-docs --flavor aglio --out docs/private-api.html
+$ node lib/PrivateHelloService gen-static-docs --flavor aglio --out docs/private-api.html
 ```
 
 ```sh
-% node lib/PublicHelloService gen-static-docs --flavor aglio --out docs/public-api.html
+$ node lib/PublicHelloService gen-static-docs --flavor aglio --out docs/public-api.html
 ```
 
 View current documentation
