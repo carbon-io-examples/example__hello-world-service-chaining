@@ -1,5 +1,7 @@
 # Hello Service (microservice chaining)
 
+[![Build Status](https://img.shields.io/travis/carbon-io-examples/example__hello-world-service-chaining/carbon-0.7.svg?style=flat-square)](https://travis-ci.org/carbon-io-examples/example__hello-world-service-chaining)
+
 This example illustrates microservice chaining / proxying where one microservice uses another 
 microservice as part of its implementation. 
 
