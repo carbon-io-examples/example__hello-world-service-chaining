@@ -4,8 +4,8 @@
 
 
 
-This example illustrates microservice chaining / proxying where one microservice uses another 
-microservice as part of its implementation. 
+This example illustrates microservice chaining / proxying where one microservice uses another
+microservice as part of its implementation.
 
 This package defined two services:
 
@@ -32,7 +32,7 @@ Client                       PublicHelloService                 PrivateHelloServ
 ## Installing the service
 
 We encourage you to clone the git repository so you can play around
-with the code. 
+with the code.
 
 ```
 $ git clone -b carbon-0.7 git@github.com:carbon-io-examples/example__hello-world-service-chaining.git
@@ -60,7 +60,7 @@ For cmdline help:
 $ node lib/PublicHelloService -h
 ```
 
-or 
+or
 
 ```sh
 $ node lib/PrivateHelloService -h
@@ -71,19 +71,19 @@ $ node lib/PrivateHelloService -h
 To access the ```/hello``` endpoint on the public service:
 
 ```
-$ curl localhost:8888/hello 
+$ curl localhost:8888/hello
 { msg: "Hello world!" }
 ```
 
 ## Running the unit tests
 
-This example comes with a simple unit test written in Carbon.io's test framework called TestTube. It is located in the ```test``` directory. 
+This example comes with a simple unit test written in Carbon.io's test framework called TestTube. It is located in the ```test``` directory.
 
 ```
 $ node test/HelloServiceTest
 ```
 
-or 
+or
 
 ```
 $ npm test
